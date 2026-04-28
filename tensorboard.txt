@@ -1,1 +1,5 @@
 pip install setuptools==69.5.1
+
+for i in range (0, 10):
+    matrix = np.corrcoef(X[:, i], y)
+    print(matrix)
